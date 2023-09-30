@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World Centered</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+<script>
+  function callEveryMinute() {
+    console.log("Function called every minute!");
+  }
+
+  // Call the function every 60,000 milliseconds (1 minute)
+  setInterval(callEveryMinute, 60000);
+</script>
+
+</body>
+</html>
